@@ -2,7 +2,7 @@
 
 # Model settings
 model:
-  name: yolov8s.pt
+  name: yolo26n.pt
   input_size: [640, 640]
   device: cuda
   num_workers: 4
@@ -22,7 +22,7 @@ training:
   dropout: 0.2
   early_stopping_patience: 50
   output_dir: runs/train
-  experiment_name: pcb_defect_detection
+  experiment_name: pcb_defect_detection_26
   label_smoothing: 0.1
 
 # Augmentation parameters
