@@ -21,7 +21,7 @@ training:
   weight_decay: 0.0005
   dropout: 0.2
   early_stopping_patience: 50
-  output_dir: runs/train
+  output_dir: runs/train26n
   experiment_name: pcb_defect_detection_26
   label_smoothing: 0.1
 
